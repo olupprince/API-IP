@@ -77,7 +77,7 @@ function Ip() {
             <h3>{isp}</h3>
           </div>
         </div>
-        <MapContainer center={area} zoom={13} scrollWheelZoom={true}>
+        <MapContainer center={area} zoom={10} scrollWheelZoom={true}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
